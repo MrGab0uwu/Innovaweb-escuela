@@ -1,0 +1,141 @@
+/*Footer-v4
+------------------------------------*/
+/*Footer*/
+.footer-v4 .footer {
+	/*padding: 50px 0;
+	background: #151515;*/
+	background:url('../../img/fondo_menu.svg') no-repeat scroll;     
+	-webkit-background-size: auto;
+	-moz-background-size: auto;
+	-o-background-size: auto;
+	background-size: auto;
+	height: 100%;
+	width: 100%;
+}
+
+.footer-v4 .footer h2 {
+	color: #023165;
+	font-family: Proxima Nova Rg;
+	padding-bottom: 120px;   
+    padding-top: 20px;
+}
+
+.footer-v4 .footer p {
+	color: #023165;
+	font-size: 14px;
+	margin-bottom: 3px;
+	font-weight: 100;
+}
+
+.footer-v4 img.footer-logo {
+	margin: 15px 0 20px;
+}
+
+.footer-v4 .address-list li {
+	color: #bbb;
+	margin-bottom: 7px;
+}
+
+.footer-v4 .address-list li i {
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.footer-v4 .shop-social li i {
+	color: #bbb;
+	width: 30px;
+	height: 30px;
+	padding: 8px;
+	font-size: 16px;
+	text-align: center;
+	background: #414040;
+}
+
+.footer-v4 .shop-social li i:hover {
+	background: #353535;
+}
+
+.footer-v4 h2.thumb-headline {
+	color: #ddd;
+	font-size: 16px;
+	margin-bottom: 3px;
+	text-transform: uppercase;
+}
+
+.footer-v4 .simple-list li {
+	color: #bbb;
+}
+
+.footer-v4 .simple-list a {
+	color: #bbb;
+	font-size: 14px;
+	font-weight: 200;
+}
+
+/*Copyright*/
+.footer-v4 .copyright { 
+	/*padding: 15px 0;
+	border-top: none;
+	background: #191919;*/
+	background:url('../../img/pleca_azul_contacto.png') no-repeat scroll;     
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.footer-v4 .copyright p {
+	color: white;
+	font-size: 13px;
+	padding: 0 5px;
+	font-family: Proxima Nova Rg;
+    position: relative;
+	top: 20px;
+}
+
+.footer-v4 .copyright h3 {
+	color: white;
+	font-weight: bold;
+	font-family: Proxima Nova Rg;
+	padding-top: 30px;
+}
+
+.footer-v4 .copyright ul {
+	padding-inline-start: 15px !important;
+	list-style-type: none; 
+}
+
+.footer-v4 .copyright ul>li {
+	color: white;
+	font-size: 16px;
+	font-family: Proxima Nova Rg;
+}
+
+.footer-v4 .copyright a {
+	color: #18ba9b;
+}
+
+.footer-v4 .sponsors-icons {
+	margin-bottom: 0;
+}
+
+.footer-v4 .sponsors-icons i {
+	color: #fff;
+	font-size: 40px;
+}
+
+@media (max-width: 991px) {
+	.footer-v4 .copyright {
+		text-align: center;
+	}
+
+	.footer-v4 .copyright p {
+		margin-bottom: 15px;
+	}
+
+	.footer-v4 .sponsors-icons.pull-right {
+		float: none !important;
+	}
+}

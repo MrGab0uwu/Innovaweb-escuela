@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<title>WebEscolar</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta http-equiv="Expires" content="0">
+	<meta http-equiv="Last-Modified" content="0">
+	<meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Web Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+
+	<!-- CSS Global Compulsory -->
+	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/shop.style.css">
+
+	<!-- CSS Header and Footer -->
+	<link rel="stylesheet" href="assets/css/headers/header-v5.css">
+	<link rel="stylesheet" href="assets/css/footers/footer-v4.css">
+
+	<!-- CSS Implementing Plugins -->
+	<link rel="stylesheet" href="assets/plugins/animate.css">
+	<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/plugins/scrollbar/css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="assets/plugins/owl-carousel/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings.css">
+	<link rel="stylesheet" href="assets\plugins\sky-forms-pro\skyforms\css\sky-forms.css">
+
+	<!-- CSS Theme -->
+	<link rel="stylesheet" href="assets/css/theme-colors/teal.css" id="style_color">
+
+	<!-- CSS Customization -->
+	<link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body class="header-fixed">
+
+<div class="wrapper">
+	<!--=== Header v5 ===-->
+	<div class="header-v5 header-static">
+		<!-- Navbar -->
+		<div class="navbar navbar-default mega-menu" role="navigation">
+			<div class="container" style="padding: 19px 0;">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="">
+						<img class="logo_we img-responsive" id="logo-header" src="assets/img/logo.svg" alt="Logo WebEscolar"> 
+					</a>
+				</div>
+
+				
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-responsive-collapse">
+					<!-- Nav Menu -->
+					<ul class="nav navbar-nav">
+						<!-- INICIO -->
+						<li class="menu-we">
+							<a href="index.html">
+								INICIO
+							</a>
+							<center><div id="d_home" class="active-menu"></div></center>
+						</li>
+						<!-- End INICIO -->
+
+						<!-- SERVICIOS 
+						<li class="menu-we">
+							<a href="#services">
+								SERVICIOS
+							</a>
+							<center><div id="d_services" class="active-menu"></div></center>
+						</li>
+						<!-- End SERVICIOS -->
+
+						<!-- MÓDULOS -->
+						<li class="menu-we active"> 
+							<a href="#modules">
+								MÓDULOS
+							</a>
+							<center><div id="d_modules" class="active-menu-home"></div></center>
+						</li>
+						<!-- End MÓDULOS -->
+
+						<!-- CONTACTO -->
+						<li class="menu-we">
+							<a href="contacto.html" style="color: #5fb611;text-decoration: underline;">
+								AGENDA DEMO
+							</a>
+							<center><div id="d_contact" class="active-menu"></div></center>
+						</li>
+						<!-- End CONTACTO -->
+					</ul>
+					<!-- End Nav Menu -->
+				</div>
+			</div>
+		</div>
+		<!-- End Navbar -->
+	</div>
+	<!--=== End Header v5 ===-->
+
+	<!-- Modulos Section -->
+	<section id="modules">
+		<div class="row esp-btn-modulos">
+
+			<div id="btn-mar" align="center" class="col-sm-2 col-xs-3 btn-modulos" onclick="show_data(5,this)">
+				<div class="overflow-h div-btn">
+					<div class="illustration-v1 illustration-img1">
+						<div class="illustration-ads">
+							<img src="assets/img/icons/marketing.svg" alt="financiero" class="icon-btn">
+						</div>
+						<div class="icon_flecha">
+							<img src="assets/img/icons/flecha_marketing.svg" alt="financiero" class="icon-btn">
+						</div>
+					</div>
+				</div>
+				<p class="text-btn-azul" style="color: #c20506">Marketing</p>
+			</div>
+
+			<div id="btn-ser" align="center" class="col-sm-2 col-xs-3 btn-modulos" onclick="show_data(4,this)">
+				<div class="overflow-h div-btn">
+					<div class="illustration-v1 illustration-img1">
+						<div class="illustration-ads">
+							<img src="assets/img/icons/servicios_escolares.svg" alt="financiero" class="icon-btn">
+						</div>
+						<div class="icon_flecha">
+							<img src="assets/img/icons/flecha_servicios_escolares.svg" alt="financiero" class="icon-btn">
+						</div>
+					</div>
+				</div>
+				<p class="text-btn-rojo" style="color: #3085b8">Servicios<br>Escolares</p>
+			</div>
+
+			<div id="btn-fin" align="center" class="col-sm-2 col-xs-3 btn-modulos" onclick="show_data(1,this)">
+				<div class="overflow-h div-btn">
+					<div class="illustration-v1 illustration-img1">
+						<div class="illustration-ads">
+							<img src="assets/img/icons/finanzas.svg" alt="financiero" class="icon-btn">
+						</div>
+						<div class="icon_flecha">
+							<img src="assets/img/icons/flecha_finanzas.svg" alt="financiero" class="icon-btn">
+						</div>
+					</div>
+				</div>
+				<p class="text-btn-azul" style="color: #4a546b">Servicios<br>Financieros</p>
+			</div>
+
+			<div id="btn-aca" align="center" class="col-sm-2 col-xs-3 btn-modulos" onclick="show_data(2,this)">
+				<div class="overflow-h div-btn">
+					<div class="illustration-v1 illustration-img1">
+						<div class="illustration-ads">
+							<img src="assets/img/icons/academia.svg" alt="financiero" class="icon-btn">
+						</div>
+						<div class="icon_flecha">
+							<img src="assets/img/icons/flecha_academia.svg" alt="financiero" class="icon-btn">
+						</div>
+					</div>
+				</div>
+				<p class="text-btn-rojo" style="color: #d8a13a">Servicios<br>Académicos</p>
+			</div>
+			
+			<div id="btn-alu-pad" align="center" class="hidden-xs col-sm-2 col-xs-3 btn-modulos" onclick="show_data(3,this)">
+				<div class="overflow-h div-btn">
+					<div class="illustration-v1 illustration-img1">
+						<div class="illustration-ads">
+							<img src="assets/img/icons/alumnos_padres.svg" alt="financiero" class="icon-btn">
+						</div>
+						<div class="icon_flecha">
+							<img src="assets/img/icons/flecha_alumnos_padres.svg" alt="financiero" class="icon-btn">
+						</div>
+					</div>
+				</div>
+				<p class="text-btn-azul" style="color: #3b2754">Alumnos y<br>Padres</p>
+			</div>
+
+				<div id="btn-ser-int" align="center" class="hidden-xs col-sm-2 col-xs-3 btn-modulos" onclick="show_data(6,this)">
+					<div class="overflow-h div-btn">
+						<div class="illustration-v1 illustration-img1">
+							<div class="illustration-ads">
+								<img src="assets/img/icons/servicios_integrados.svg" alt="financiero" class="icon-btn">
+							</div>
+							<div class="icon_flecha">
+								<img src="assets/img/icons/flecha_servicios_integrados.svg" alt="financiero" class="icon-btn">
+							</div>
+						</div>
+					</div>
+					<p class="text-btn-rojo" style="color: #023165">Servicios<br>Integrados</p>
+				</div>
+
+				<div id="btn-por-sol" align="center" class="hidden-xs col-sm-2 col-xs-3 btn-modulos" onclick="show_data(7,this)">
+					<div class="overflow-h div-btn">
+						<div class="illustration-v1 illustration-img1">
+							<div class="illustration-ads">
+								<img src="assets/img/icons/portal_soluciones.svg" alt="financiero" class="icon-btn">
+							</div>
+							<div class="icon_flecha">
+								<img src="assets/img/icons/flecha_portal_soluciones.svg" alt="financiero" class="icon-btn">
+							</div>
+						</div>
+					</div>
+					<p class="text-btn-azul" style="color: #3f6952">Portal de<br>Soluciones</p>
+				</div>
+		</div>
+
+			<div class="row esp-btn-modulos visible-xs"> 
+				<div class="col-xs-3 visible-xs" style="width:11%"> 
+				</div>
+
+				<div id="btn-alu-pad" align="center" class="col-sm-2 col-xs-3 btn-modulos" onclick="show_data(3,this)">
+					<div class="overflow-h div-btn">
+						<div class="illustration-v1 illustration-img1">
+							<div class="illustration-ads">
+								<img src="assets/img/icons/alumnos_padres.svg" alt="financiero" class="icon-btn">
+							</div>
+							<div class="icon_flecha">
+								<img src="assets/img/icons/flecha_alumnos_padres.svg" alt="financiero" class="icon-btn">
+							</div>
+						</div>
+					</div>
+					<p class="text-btn-azul" style="color: #3b2754">Alumnos y<br>Padres</p>
+				</div>
+
+				<div id="btn-ser-int" align="center" class="col-sm-2 col-xs-3 btn-modulos" onclick="show_data(6,this)">
+					<div class="overflow-h div-btn">
+						<div class="illustration-v1 illustration-img1">
+							<div class="illustration-ads">
+								<img src="assets/img/icons/servicios_integrados.svg" alt="financiero" class="icon-btn">
+							</div>
+							<div class="icon_flecha">
+								<img src="assets/img/icons/flecha_servicios_integrados.svg" alt="financiero" class="icon-btn">
+							</div>
+						</div>
+					</div>
+					<p class="text-btn-rojo" style="color: #023165">Servicios<br>Integrados</p>
+				</div>
+
+				<div id="btn-por-sol" align="center" class="col-sm-2 col-xs-3 btn-modulos" onclick="show_data(7,this)">
+					<div class="overflow-h div-btn">
+						<div class="illustration-v1 illustration-img1">
+							<div class="illustration-ads">
+								<img src="assets/img/icons/portal_soluciones.svg" alt="financiero" class="icon-btn">
+							</div>
+							<div class="icon_flecha">
+								<img src="assets/img/icons/flecha_portal_soluciones.svg" alt="financiero" class="icon-btn">
+							</div>
+						</div>
+					</div>
+					<p class="text-btn-azul" style="color: #3f6952">Portal de<br>Soluciones</p>
+				</div>
+			</div>	
+	</section>
+
+	<section id="marketing">
+		<h1 class="title-serv">MARKETING</h1>  
+		<p></p>
+		<div class="row service-seg">
+			<div class="col-sm-12">
+					<div class="col-sm-4">
+						<p class="text-info">Captación de prospectos vía redes sociales: Whatsapp, Telegram, Messenger, facebook e Instagram.</p>
+					</div>
+					<div class="col-sm-4">
+						<p class="text-info">Registro en CRM para seguimiento y administración de prospectos.</p>
+					</div>
+					<div class="col-sm-4">
+						<p class="text-info">Conversión aspirante desde el CRM a alumno en WebEscolar.</p>
+					</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="servicios_escolares" class="div-content">
+		<h1 class="title-serv">SERVICIOS ESCOLARES</h1>  
+		<div class="row service-seg">
+
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="col-sm-4" align="right">
+						<img src="assets/img/icons/servicios_escolares/administra_mas_de_una_institucion.svg" height="40px" style="margin-top: 5px;">
+					</div>
+					<div class="col-sm-8">
+						<h2 class="title-info-rojo">Administra más de una institución</h2>
+						<p class="text-info">Múltiples Planteles y Niveles educativos: Superior, medio superior y básico.</p>
+					</div>
+				</div>
+
+				<div class="col-sm-6">
+					<div class="col-sm-4" align="right">
+						<img src="assets/img/icons/servicios_escolares/metodo_evaluacion.svg" height="40px" style="margin-top: 5px;">
+					</div>
+					<div class="col-sm-8">
+						<h2 class="title-info-azul">Métodos de evaluación</h2>
+						<p class="text-info">Define las políticas por nivel, grado o grupo.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="col-sm-4" align="right">
+						<img src="assets/img/icons/servicios_escolares/info_compartida_Actualizada.svg" height="40px" style="margin-top: 5px;">
+					</div>
+					<div class="col-sm-8">
+						<h2 class="title-info-azul">Información compartida y actualizada</h2>
+						<p class="text-info">Al otorgar acceso a otras áreas relacionadas con servicios escolares.</p> 
+					</div>
+				</div>
+
+				<div class="col-sm-6">
+					<div class="col-sm-4" align="right">
+						<img src="assets/img/icons/servicios_escolares/administracion_servicios_escolares.svg" height="40px" style="margin-top: 5px;">
+					</div>
+					<div class="col-sm-8">
+						<h2 class="title-info-azul">Administración de servicios<br>escolares</h2>
+						<p class="text-info">Calificaciones, becas, horarios, estatus del alumno, catedráticos, finanzas.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="col-sm-4" align="right">
+						<img src="assets/img/icons/servicios_escolares/credito_escolarizado.svg" height="40px" style="margin-top: 5px;">
+					</div>
+					<div class="col-sm-8">
+						<h2 class="title-info-rojo">Crédito y escolarizado</h2>
+						<p class="text-info">Controla ambos sistemas en un solo punto.</p>
+					</div>
+				</div>
+
+				<div class="col-sm-6">
+					<div class="col-sm-4" align="right">
+						<img src="assets/img/icons/servicios_escolares/reportes.svg" height="40px" style="margin-top: 5px;">
+					</div>
+					<div class="col-sm-8">
+						<h2 class="title-info-rojo">Reportes</h2>
+						<p class="text-serv">Elige de una lista e más de 100 reportes, acta de examen, lista de asistencia, boletas y más.</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="financiero" class="div-content">
+			<h1 class="title-serv">SERVICIOS FINANCIEROS</h1>  
+			<div class="row service-seg">
+
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="col-sm-4" align="right">
+							<img src="assets/img/icons/servicios_financieros/pago_en_linea.svg" height="40px" style="margin-top: 5px;">
+						</div>
+						<div class="col-sm-8">
+							<h2 class="title-info-azul">Pago en línea</h2>
+							<p class="text-info">Desde cualquier lugar y a cualquier hora.</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6">
+						<div class="col-sm-4" align="right">
+							<img src="assets/img/icons/servicios_financieros/multiples_conceptos.svg" height="40px" style="margin-top: 5px;">
+						</div>
+						<div class="col-sm-8">
+							<h2 class="title-info-azul">Múltiples conceptos<br>de cobranza</h2>
+							<p class="text-info">Colegiaturas, inscripciones, reinscripciones, becas y más.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="col-sm-4" align="right">
+							<img src="assets/img/icons/servicios_financieros/concilacion_bancaria.svg" height="40px" style="margin-top: 5px;">
+						</div>
+						<div class="col-sm-8">
+							<h2 class="title-info-rojo">Conciliación bancaria</h2>
+							<p class="text-info"><b>Importa y registra</b> automáticamente los pagos registrados.</p> 
+						</div>
+					</div>
+
+					<div class="col-sm-6">
+						<div class="col-sm-4" align="right">
+							<img src="assets/img/icons/servicios_financieros/factura_electronica.svg" height="40px" style="margin-top: 5px;">
+						</div>
+						<div class="col-sm-8">
+							<h2 class="title-info-rojo">Facturación electrónica</h2>
+							<p class="text-info">De forma automática y recurrente.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="col-sm-4" align="right">
+							<img src="assets/img/icons/servicios_financieros/reportes.svg" height="40px" style="margin-top: 5px;">
+						</div>
+						<div class="col-sm-8">
+							<h2 class="title-info-azul">Reportes de cobranza</h2>
+							<p class="text-info">Saldos, adeudo, prórrogas, descuentos y más.</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6">
+						
+					</div>
+				</div>
+
+				<div style="height: 30px"></div>
+
+				<div class="row">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-5" style="background-color: #f1f1f1">
+						<h2 class="title-info-rojo">Factura cualquier concepto</h2>
+						<p class="text-info">Independiente a los conceptos establecidos de forma recurrente, como son las colegiaturas.</p>
+					</div>
+					<div class="col-sm-5">
+						<h2 class="title-info-azul">Evita proyecciones erróneas de ingresos</h2>
+						<p class="text-info-segun">Catalogando a los alumnos por su estatus en la institución: activo, baja, deudor.</p>
+					</div>
+				</div>
+
+				<div style="height: 20px"></div>
+
+				<div class="row">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-5 fondo_gris">
+						<h2 class="title-info-azul">Planeación global</h2>
+						<p class="text-info">Aplicar reglas generales por Institución o alumno, permite un mejor sistema de cobranza.</p>
+					</div>
+					<div class="col-sm-5 fondo">
+						<h2 class="title-info-rojo">Cobranza por Crédito, escolarizado o mixto</h2>
+						<p class="text-info-segun">Registra los ingresos dependiendo del sistema educativo de la Institución. </p>
+					</div>
+				</div>
+
+			</div>
+	</section>
+
+	<section id="servicios_academicos" class="div-content">
+		<h1 class="title-serv">SERVICIOS ACADÉMICOS</h1>
+		<div class="row modules-info">
+
+			<div class="row" style="padding-top: 30px;">
+				<div class="col-sm-6">
+					<div class="col-sm-4" align="right">
+						<img src="assets/img/sa1.svg" height="40px" style="margin-top: 5px;">
+					</div>
+					<div class="col-sm-8">
+						<h2 class="title-info-azul">Espacios físicos</h2>
+						<p class="text-info">Administración con base en horarios definidos.</p>
+					</div>
+				</div>
+
+				<div class="col-sm-6">
+					<div class="col-sm-4" align="right">
+						<img src="assets/img/sa2.svg" height="40px" style="margin-top: 5px;">
+					</div>
+					<div class="col-sm-8">
+						<h2 class="title-info-rojo">Lista de asistencia</h2>
+						<p class="text-info">Define políticas para su aplicación.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row" style="padding-top: 30px;">
+				<div class="col-sm-4">
+					<div class="col-sm-4" align="right">
+						<img src="assets/img/sa3.svg" height="40px" style="margin-top: 5px;">
+					</div>
+					<div class="col-sm-8">
+						<h2 class="title-info-azul">Evaluación de alumnos</h2>
+						<p class="text-info">Define reglas y políticas para las evaluaciónes.</p> 
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="col-sm-4" align="right">
+						<img src="assets/img/sa4.svg" height="40px" style="margin-top: 5px;">
+					</div>
+					<div class="col-sm-8">
+						<h2 class="title-info-rojo">Registro de calificaciones</h2>
+						<p class="text-info">Acceso a los catedráticos sobre las bases establecidas.</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="col-sm-4" align="right">
+						<img src="assets/img/sa5.svg" height="40px" style="margin-top: 5px;">
+					</div>
+					<div class="col-sm-8">
+						<h2 class="title-info-azul">Acceso a alumnos</h2>
+						<p class="text-info">Directivos condicionan acceso a la institución con base en las reglas establecidas.</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!--<div class="row modules-info" align="center">
+			<ul class="service-list">
+				<li class="barra-service"></li> 
+				<li class = "" >
+					<img src="assets/img/sa1.svg" class="img-responsive serv-aca"> 
+					<p class="subtitle-serv-azul">Espacios<br>físicos</p>
+					<p class="text-serv">Administración<br>con base en<br>horarios<br>definidos.</p>
+				</li>
+				<li class="barra-service"></li> 
+				<li class = "" >
+					<img src="assets/img/sa2.svg" class="img-responsive serv-aca"> 
+					<p class="subtitle-serv-rojo">Lista de<br>asistencia</p>
+					<p class="text-serv">Define<br>políticas<br>para su<br>aplicación.</p>
+				</li> 
+				<li class="barra-service"></li> 
+				<li class = "" >
+					<img src="assets/img/sa3.svg" class="img-responsive serv-aca"> 
+					<p class="subtitle-serv-azul">Evaluación<br>de alumnos</p>
+					<p class="text-serv">Define<br>reglas y<br>políticas<br>para las<br>evaluaciónes.</p>
+				</li> 
+				<li class="barra-service"></li> 
+				<li class = "" >
+					<img src="assets/img/sa4.svg" class="img-responsive serv-aca"> 
+					<p class="subtitle-serv-rojo">Registro de calificaciones</p>
+					<p class="text-serv">Acceso a los<br>catedráticos<br>sobre las<br>bases<br>establecidas.</p>
+				</li>
+				<li class="barra-service"></li> 
+				<li class = "">
+					<img src="assets/img/sa5.svg" class="img-responsive serv-aca"> 
+					<p class="subtitle-serv-azul">Acceso a<br>alumnos</p>
+					<p class="text-serv">Directivos<br>condicionan<br>acceso a la<br> institución con<br>base en las<br>reglas<br>establecidas.</p>
+				</li>
+			</ul>
+		</div>-->
+
+	</section>
+
+	<section id="alumnos_y_padres" class="div-content">
+		<h1 class="title-serv">ALUMNOS Y PADRES</h1>
+
+		<div class="row service-seg">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="col-sm-4" align="right">
+							<img src="assets/img/icons/alumnos_padres/consulta_informacion_academica.svg" height="40px" style="margin-top: 5px;">
+						</div>
+						<div class="col-sm-4" align="center">
+							<p class="text-info">Consulta de información académica: historial académico, calificaciones, horarios, boletas o kárdex.</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6">
+						<div class="col-sm-4" align="right">
+							<img src="assets/img/icons/alumnos_padres/generacion_ficha_pago.svg" height="40px" style="margin-top: 5px;">
+						</div>
+						<div class="col-sm-4" align="center">
+							<p class="text-info">Generación de ficha de pago, consulta de estado de cuenta y facturación.</p>
+						</div>
+					</div>
+				</div>
+				<div style="height: 30px"></div>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="col-sm-4" align="right">
+							<img src="assets/img/icons/alumnos_padres/evaluacion_catedraticos.svg" height="40px" style="margin-top: 5px;">
+						</div>
+						<div class="col-sm-4" align="center">
+							<p class="text-info">Evaluación<br>de<br>catedráticos.</p> 
+						</div>
+					</div>
+
+					<div class="col-sm-6">
+					</div>
+				</div>
+
+		</div>
+	</section>
+
+	<!-- End Service Section -->
+
+	<div style="height: 50px"></div>
+
+	<!--=== Footer v4 ===-->
+    <section id="contact">
+        <!--=== Footer v4 ===-->
+        <div class="footer-v4">
+            <div class="copyright">
+                <div class="container"> 
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <img class="logo_we_pie_info img-responsive" src="assets/img/logo_blanco.svg" alt="Logo WebEscolar"> 
+                            <p> Todos los derechos reservados  InovaWeb Soluciones TI </p>    
+                        </div>
+						<div class="col-sm-4" style="padding: 0px;">
+                            <ul class="icon_pie">
+								<li style="display: inline-block; padding: 10px;"><img alt="Phone" class="img-responsive" src="assets/img/icons/phone.svg" style="height:40px;"></li>
+								<li style="display: inline-block; padding: 10px;"><img alt="Email" class="img-responsive" src="assets/img/icons/mail.svg" style="height:40px;"></li>
+								<li style="display: inline-block; padding: 10px;"><img alt="Facebook" class="img-responsive" src="assets/img/icons/face.svg" style="height:40px;"></li>
+							</ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h3 style="padding-top: 0;">Contacto</h3>
+                            <ul>
+                                <li>Tel: (222) 211 27 69</li>
+                                <li>ventas@inovaweb.com.mx</li>
+                                <li>39 Oriente #1206 Int. 110 <br>
+                                    Col. Anzures. Puebla, Pue.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/copyright-->
+        </div>
+        <!--=== End Footer v4 ===-->
+    </section>
+    <!--=== End Footer v4 ===-->
+</div><!--/wrapper-->
+
+
+<!-- JS Global Compulsory -->
+<script src="assets/plugins/jquery/jquery.min.js"></script>
+<script src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<script src="assets/plugins/back-to-top.js"></script>
+<script src="assets/plugins/smoothScroll.js"></script>
+<script src="assets/plugins/jquery.parallax.js"></script>
+<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.form.min.js"></script>
+<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script>
+<script src="assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
+<script src="assets/plugins/scrollbar/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+<script src="assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<!-- JS Customization -->
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/forms/page_contact_form.js"></script> 
+<!-- JS Page Level -->
+<script src="assets/js/shop.app.js"></script>
+<script src="assets/js/plugins/owl-carousel.js"></script>
+<script src="assets/js/plugins/revolution-slider.js"></script>
+<script src="assets/js/plugins/style-switcher.js"></script>
+<script>
+	jQuery(document).ready(function() {
+		App.init();
+		App.initScrollBar();
+		App.initParallaxBg();
+		OwlCarousel.initOwlCarousel();
+		RevolutionSlider.initRSfullWidth();
+		StyleSwitcher.initStyleSwitcher();
+		PageContactForm.initPageContactForm(); 
+});
+</script>
+<!--[if lt IE 9]>
+	<script src="assets/plugins/respond.js"></script>
+	<script src="assets/plugins/html5shiv.js"></script>
+	<script src="assets/js/plugins/placeholder-IE-fixes.js"></script>
+<![endif]-->
+
+</body>
+</html>
